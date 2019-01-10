@@ -39,7 +39,8 @@ Return Value:Service returns true if it is not empty and RemoteException does no
 Register service in AndroidManifest
 
 ```
-<service android:name="com.pvr.launcher.FileDownloadService"     android:process=":filedownload">
+<service android:name="com.pvr.launcher.FileDownloadService"     
+   android:process=":filedownload">
       <intent-filter>
         <action android:name="com.picovr.file.download" />
       </intent-filter>
